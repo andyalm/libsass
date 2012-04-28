@@ -2,7 +2,10 @@
 #include <sstream>
 #include <string>
 #include <cstdlib>
+#ifndef WIN32
 #include <unistd.h>
+#endif
+
 #include <iostream>
 #include "document.hpp"
 #include "eval_apply.hpp"

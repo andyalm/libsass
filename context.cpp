@@ -1,5 +1,8 @@
 #include "context.hpp"
 #include <iostream>
+#ifdef WIN32
+#include <direct.h>
+#endif
 using std::cerr; using std::endl;
 
 namespace Sass {
